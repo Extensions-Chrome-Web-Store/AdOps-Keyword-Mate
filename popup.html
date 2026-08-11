@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Switcher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div id="step-lang">
+    <h3>Select language</h3>
+    <div class="grid">
+      <button type="button" class="btn lang-select" data-lang="en"><div class="icon">🇬🇧</div><div class="label">English</div></button>
+      <button type="button" class="btn lang-select" data-lang="es"><div class="icon">🇪🇸</div><div class="label">Español</div></button>
+      <button type="button" class="btn lang-select" data-lang="fr"><div class="icon">🇫🇷</div><div class="label">Français</div></button>
+      <button type="button" class="btn lang-select" data-lang="de"><div class="icon">🇩🇪</div><div class="label">Deutsch</div></button>
+      <button type="button" class="btn lang-select" data-lang="pt"><div class="icon">🇵🇹</div><div class="label">Português</div></button>
+      <button type="button" class="btn lang-select" data-lang="pl"><div class="icon">🇵🇱</div><div class="label">Polski</div></button>
+      <button type="button" class="btn lang-select" data-lang="cs"><div class="icon">🇨🇿</div><div class="label">Čeština</div></button>
+      <button type="button" class="btn lang-select" data-lang="it"><div class="icon">🇮🇹</div><div class="label">Italiano</div></button>
+      <button type="button" class="btn lang-select" data-lang="tr"><div class="icon">🇹🇷</div><div class="label">Türkçe</div></button>
+      <button type="button" class="btn lang-select" data-lang="ja"><div class="icon">🇯🇵</div><div class="label">日本語</div></button>
+    </div>
+  </div>
+
+  <div id="step-profile" class="hidden">
+    <h3>
+      Profile
+      <button id="back-btn" class="back-btn" type="button">← Back</button>
+    </h3>
+    <div class="grid" id="profile-container"></div>
+  </div>
+
+  <script src="popup/constants.js"></script>
+  <script src="popup/storage.js"></script>
+  <script src="popup/ui.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

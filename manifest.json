@@ -1,0 +1,23 @@
+{
+   "action": {
+      "default_popup": "popup.html",
+      "default_title": "Text Inserter"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Inserts predefined text into the field you right-clicked | adWMG / by Ostin",
+   "icons": {
+      "128": "icons/icon128.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtYab4PF7yKdogi4J5q3/20F7u6RoLHi2c/jwDwXOckYPTIYglKNj/wkwY36cxss4vkEW6vxhS5ZBzP3tc2OiKJJOuSjuF5gsTj+AOei8dI/l544899G+KQvLKKwT6X1iTOV3XyGkdzdd6ZBft6J48hkLGuB/3rIidz7AN95hAU8l1QimbXuKO1Z+5hS8XSaaoovhmk/NltHKVsAFtHtYjMhWd9X4HwzQBTQdqmMzan2OujL7dbN2zzapb0HBO8VR/wceczRc2CIYkLisw32HtiaouR9th/y8sfW60ijY951yASHeSYhHudDp0GLaTJL1QhivR4aflOOAXdhc//EJoQIDAQAB",
+   "manifest_version": 3,
+   "name": "Duck Bob",
+   "permissions": [ "contextMenus", "scripting", "activeTab", "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "4.1.0",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "popup.js" ]
+   } ]
+}
